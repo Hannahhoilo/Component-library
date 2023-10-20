@@ -1,0 +1,15 @@
+.breadcrumbs {
+	display: flex;
+	flex-flow: row norwap;
+	gap: var(--spacing-small);
+}
+
+.breadcrumbs__link {
+	position: relative;
+	padding: var(--spacing-small);
+	border-radius: var(--border-radius);
+}
+
+.breadcrumbs__link:hover {
+	background: var(--color-accent-1);
+}
